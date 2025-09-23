@@ -15,7 +15,7 @@ export default function AuthForm({ mode, email, setEmail, password, setPassword,
       )}
       {mode === 'login' && (
         <>
-          <div className="hint">Build password with the wheel below.</div>
+          <div className="hint">Build your password using the wheel below (inner/middle/outer).</div>
           <div className="hint">Length: {length || 0} (min {minLen})</div>
           <div className="row">
             <button type="button" onClick={clear}>Clear</button>
